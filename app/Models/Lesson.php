@@ -1,0 +1,1 @@
+<?phpnamespace App\Models;use Illuminate\Database\Eloquent\Factories\HasFactory;use Illuminate\Database\Eloquent\Model;/** * Class StudentLessons * @package App\Models * @mixin \Illuminate\Database\Query\Builder */class Lesson extends Model{    use HasFactory;    protected $table = 'student_lessons';}

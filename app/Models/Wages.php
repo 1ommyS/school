@@ -1,0 +1,1 @@
+<?phpnamespace App\Models;use App\utils\DateUtils;use Illuminate\Database\Eloquent\Factories\HasFactory;use Illuminate\Database\Eloquent\Model;use Illuminate\Support\Facades\Auth;use Illuminate\Support\Facades\DB;/** * Class Wages * Complete all work with wages and analytic * @package App\Models */class Wages extends Model{    use HasFactory;}

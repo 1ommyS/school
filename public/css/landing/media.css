@@ -1,0 +1,190 @@
+@media screen and (min-width: 1500px) {
+    .block-arrow {
+        background-color: #fff;
+        height: 80px;
+        border-right: 1px solid black;
+        display: inline-block;
+        width: 280px;
+        margin-left: -10px !important;
+        clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%);
+    }
+    .block-arrow:first-child {
+        margin-left: 0px !important;
+
+    }
+    .block-arrow:nth-child(2n+1) {
+        background-color: rgb(248,157,38) !important;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .number {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 60px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        line-height: 85px;
+    }
+    .block-head,.block-footer {
+        width: 270px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .block-arrow {
+        background-color: #fff;
+        height: 70px;
+        border-right: 1px solid black;
+        display: inline-block;
+        width: 240px;
+        margin-left: -10px !important;
+        clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%);
+    }
+    .block-arrow:first-child {
+        margin-left: 0px !important;
+
+    }
+    .block-arrow:nth-child(2n+1) {
+        background-color: rgb(248,157,38) !important;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .number {
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        font-size: 50px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        line-height: 75px;
+    }
+    .block-head,.block-footer {
+        width: 230px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 992px) {
+    .text-kind li  {
+        transform: translate(-10px,0);
+    }
+    .cont {
+        text-align: center;
+    }
+    .text
+    {width: initial !important; }
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer, header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contacts .form-group:nth-child(1) {
+        width: 100%;
+    }
+    .contacts .form-group:nth-child(2) {
+        width: 100%;
+    }
+    .header-section h1 {
+        font-size: 32px !important;
+    }
+    .header-main {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .header-main p {
+        font-size: 18px;
+    }
+    .header-main h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .development-kind .row:nth-child(2n), .container-fluid .f {
+        display: none;
+    }
+    section div.development-mob {
+        display: block !important;
+    }
+    .development-kind img {
+        width: 500px;
+    }
+    .development-kind {
+        text-align: center;
+    }
+    .cards {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .text {
+        font-size: 14px;
+    }
+
+    .number {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-size: 40px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        line-height: 55px;
+        transform: translate(0,0);
+    }
+    .perspectives-main {
+        display: none;
+    }
+    .perspectives-mobile {
+        display: block;
+    }
+    .perspectives-mobile .number, .perspectives-mobile .text {
+        margin-bottom: 10px !important
+    }
+    .perspectives-main .text {
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .teaching-header, .events-header {
+        background-position: 900px 0px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .contacts  {
+        text-align: center;
+    }
+    .cont {
+        text-align: center;
+    }
+    .development-kind  {
+        text-align: center;
+
+    }
+    .cards {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .development-kind img {
+        margin-top: 30px;
+    }
+    .perspectives .header-section {
+        margin-left: 0px !important;
+    }
+    .text-kind {
+        display: inline-block;
+        width: 100%;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .text-kind h3{
+        text-align: center;
+    }
+    .development-kind img {
+        width: 280px;
+    }
+}
