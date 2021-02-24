@@ -14,6 +14,7 @@ class AuxPayments extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
     protected $table = "other_payments";
     protected $fillable = ["date", "price", "comment"];
 }

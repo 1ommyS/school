@@ -2,7 +2,9 @@
 
 namespace Database\Factories;
 
+use App\Models\AuxPayments;
 use App\Models\Lesson;
+use App\Models\Mark;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class UserFactory extends Factory
@@ -12,7 +14,7 @@ class UserFactory extends Factory
      *
      * @var string
      */
-    protected $model = Lesson::class;
+    protected $model = Mark::class;
 
     /**
      * Define the model's default state.
@@ -22,15 +24,11 @@ class UserFactory extends Factory
     public function definition ()
     {
         return [
-            "group_id" => 17,
-            "date" => $this->faker->date("Y-m-d 00:00:00"),
-            "homework" => $this->faker->text,
-            "payment_status" => round(rand(1,3)),
-            "student_id" => round(rand(50,100)),
-            "lesson_theme" => $this->faker->text,
-            "balance_lesson" =>  round(rand(500,150000)),
-            "lesson_cost" =>  round(rand(300,1000)),
-            "lesson_number" => round(rand(1,1500)),
+           "student_id" => round(rand(62,63)),
+            "group_id" => 108,
+            "mark" => round(rand(6,15)),
+            "created_at" => "2021-".round(rand(1,12))."-".round(rand(1,31)),
+            "updated_at" => now()
         ];
 
     }
